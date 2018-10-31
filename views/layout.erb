@@ -5,6 +5,7 @@
     <title><%= @title_for_the_page %></title>
   </head>
   <body>
+    <link rel="stylesheet" href="stylesheet.css">
     <%= erb(:'partials/navigation', :layout => false) %>
     <%# template content would be injected here %>
     <%= yield %>
